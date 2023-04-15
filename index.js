@@ -59,7 +59,7 @@ window.addEventListener("click", function(e){
         choiceEl.textContent = "rock"
         choiceImg.src = "images/rock.png"
         break;
-    case "Psychic": 
+    case "psychic": 
         choiceEl.textContent = "bug"
         choiceImg.src = "images/bug.png"
         break;
