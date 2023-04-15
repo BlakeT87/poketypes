@@ -75,6 +75,10 @@ window.addEventListener("click", function(e){
         choiceEl.textContent = "dark"
         choiceImg.src = "images/dark.png"
         break;
+    case "dragon": 
+        choiceEl.textContent = "ice"
+        choiceImg.src = "images/ice.png"
+        break;
     case "dark": 
         choiceEl.textContent = "fighting"
         choiceImg.src = "images/fighting.png"
