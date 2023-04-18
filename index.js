@@ -267,173 +267,199 @@ window.addEventListener("click", function(e){
    //create switch statement to change choiceEl and choiceImg based on opponent clicked
    switch (opponent){
     case "normal":
+        pokemonCard = ""
         choiceEl.textContent = "Fighting"
         choiceImg.src = "images/fighting.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < fighting.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${fighting[i].source}>
             <p>${fighting[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "fire": 
+        pokemonCard = ""
         choiceEl.textContent = "Water"
         choiceImg.src = "images/water.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < water.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${water[i].source}>
             <p>${water[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "water": 
+    case "water":
+        pokemonCard = "" 
         choiceEl.textContent = "Electric"
         choiceImg.src = "images/electric.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < electric.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${electric[i].source}>
             <p>${electric[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "grass": 
+    case "grass":
+        pokemonCard = ""
         choiceEl.textContent = "Fire"
         choiceImg.src = "images/fire.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < fire.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${fire[i].source}>
             <p>${fire[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "electric": 
+        pokemonCard = ""
         choiceEl.textContent = "Ground"
         choiceImg.src = "images/ground.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < ground.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${ground[i].source}>
             <p>${ground[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "ice": 
+    case "ice":
+        pokemonCard = ""
         choiceEl.textContent = "Fire"
         choiceImg.src = "images/fire.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < fire.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${fire[i].source}>
             <p>${fire[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "fighting": 
+    case "fighting":
+        pokemonCard = ""
         choiceEl.textContent = "Flying"
         choiceImg.src = "images/flying.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < flying.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${flying[i].source}>
             <p>${flying[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "poison": 
+    case "poison":
+        pokemonCard = ""
         choiceEl.textContent = "Ground"
         choiceImg.src = "images/ground.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < ground.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${ground[i].source}>
             <p>${ground[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "ground": 
+        pokemonCard = ""
         choiceEl.textContent = "Water"
         choiceImg.src = "images/water.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < water.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${water[i].source}>
             <p>${water[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "flying": 
+        pokemonCard = ""
         choiceEl.textContent = "Rock"
         choiceImg.src = "images/rock.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < rock.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${rock[i].source}>
             <p>${rock[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "psychic": 
+    case "psychic":
+        pokemonCard = ""
         choiceEl.textContent = "Bug"
         choiceImg.src = "images/bug.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < bug.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${bug[i].source}>
             <p>${bug[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "bug": 
+        pokemonCard = ""
         choiceEl.textContent = "Flying"
         choiceImg.src = "images/flying.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < flying.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${flying[i].source}>
             <p>${flying[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "rock": 
+        pokemonCard = ""
         choiceEl.textContent = "Water"
         choiceImg.src = "images/water.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < water.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${water[i].source}>
             <p>${water[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "ghost": 
         choiceEl.textContent = "Dark"
@@ -449,43 +475,49 @@ window.addEventListener("click", function(e){
         }
         break;
     case "dragon": 
+        pokemonCard = ""
         choiceEl.textContent = "Ice"
         choiceImg.src = "images/ice.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < ice.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${ice[i].source}>
             <p>${ice[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
-    case "dark": 
+    case "dark":
+        pokemonCard = "" 
         choiceEl.textContent = "Fighting"
         choiceImg.src = "images/fighting.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < fighting.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${fighting[i].source}>
             <p>${fighting[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
     case "steel": 
+        pokemonCard = ""
         choiceEl.textContent = "Fire"
         choiceImg.src = "images/fire.png"
         suggestedImg.innerHTML = ""
         for (let i = 0; i < fire.length; i++){
-            suggestedImg.innerHTML += `
+            pokemonCard += `
             <div id="suggested-pokemon-card">
             <img src=${fire[i].source}>
             <p>${fire[i].name}</p>
             </div>
             `
         }
+        suggestedImg.innerHTML = pokemonCard
         break;
         
 }
