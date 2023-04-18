@@ -16,8 +16,8 @@ body{
 #logo-icons{
     display: flex;
     justify-content: space-evenly;
-    width: 50vw;
-}
+    width: 50vw;    
+}               
 
 .hero-icons{
     height: 10vh;
@@ -66,6 +66,15 @@ body{
 
 #suggested-pokemon-container{
     display: flex;
+}
+
+#suggested-pokemon-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    max-width: 10vw;
+    margin: 5px 10px;
 }
 
 h1{
