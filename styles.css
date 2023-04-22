@@ -5,8 +5,35 @@
 
 body{
     margin: 0 auto;
+    font-family: 'VT323', monospace;
 }
 
+@media screen and (min-width: 450px){
+    
+    .type-container{
+        width: 5vw;; 
+    }
+
+    .type-img{
+        width: 3vw;
+        height: 3vw;
+
+    }
+
+    .hero-icons{
+        max-width: 5vw;
+    }
+
+    .row{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #logo{
+        max-width: 20vw;
+    }
+}
 #hero{
     display: flex;
     flex-direction: column;
@@ -30,6 +57,7 @@ body{
 
 .type-img{
     max-width: 10vw;
+    max-height: 10vh;
 
 }
 
@@ -39,22 +67,37 @@ body{
 }
 
 .type-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     text-align: center;
-    justify-content: flex-start;
+    margin: 10px 5px;
+}
+
+.type-img{
+    padding: 3px;
+}
+
+.type-img:hover{
+    padding: 0;
+    border: 3px solid #bebebe;
+    border-radius: 50%;
+}
+
+.type-img:active{
+    filter:brightness(50%)
 }
 
 .row{
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 #main{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 #output{
