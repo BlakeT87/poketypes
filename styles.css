@@ -4,36 +4,9 @@
 }
 
 body{
-    margin: 0 auto;
     font-family: 'VT323', monospace;
 }
 
-@media screen and (min-width: 450px){
-    
-    .type-container{
-        width: 5vw;; 
-    }
-
-    .type-img{
-        width: 3vw;
-        height: 3vw;
-
-    }
-
-    .hero-icons{
-        max-width: 5vw;
-    }
-
-    .row{
-        display: flex;
-        justify-content: center;
-
-    }
-
-    #logo{
-        max-width: 20vw;
-    }
-}
 #hero{
     display: flex;
     flex-direction: column;
@@ -44,7 +17,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 50vw;    
-}               
+}   
+
+main{
+    width: 600px;
+    margin: 0 auto;
+}
 
 .hero-icons{
     height: 10vh;
